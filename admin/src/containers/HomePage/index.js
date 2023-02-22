@@ -95,7 +95,7 @@ const HomePage = ({ history: { push } }) => {
         <div className="row">
           <div className="col-lg-8 col-md-12">
             <Block>
-                <h2 id="mainHeader">Bem vido a Won Games</h2>
+              <h2 id="mainHeader">Bem vido a Won Games</h2>
               <P>Ao lado você pode inserir diferentes jogos, categorias e publishers para a nossa maravilhosa loja de jogos!</P>
               <Separator style={{ marginTop: 37, marginBottom: 36 }} />
               <div style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -119,9 +119,9 @@ const HomePage = ({ history: { push } }) => {
 
           <div className="col-md-12 col-lg-4">
             <Block style={{ paddingRight: 30, paddingBottom: 0 }}>
-              <FormattedMessage id="HomePage.community">{msg => <h2>{msg}</h2>}</FormattedMessage>
+              <h2>Veja nossos links </h2>
               <FormattedMessage id="app.components.HomePage.community.content">
-                {content => <P style={{ marginTop: 7, marginBottom: 0 }}>{content}</P>}
+                <P style={{ marginTop: 7, marginBottom: 0 }}>Em caso de dúvidas e ou sugestões, só ir em algum de nossos links =) </P>
               </FormattedMessage>
               <FormattedMessage id="HomePage.roadmap">
                 {msg => (
